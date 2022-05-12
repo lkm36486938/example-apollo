@@ -11,3 +11,9 @@
 <a href="https://www.apollographql.com/tutorials/lift-off-part5/">PART 5 - Production & the Schema Registry</a>
 
 - PART5 에선 heroku 를 사용한 배포를 진행하는데, heroku 와 github 연동이 잘 되지 않아, 배포테스트는 진행하지 못했습니다.
+
+<hr/>
+
+## 구현 (Side Quests)
+
+<a href="https://www.apollographql.com/tutorials/side-quest-auth/">SIDE QUEST 1 - Authentication & Authorization</a>
