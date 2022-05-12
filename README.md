@@ -20,3 +20,5 @@
 
 - graphql 의 다른 Schema type - enum, input, interfacde 에 대한 설명
 - **resolverType, fragment (+ ... on), **typename
+
+<img src="./basic_tutorial_certification.png" alt='튜토리얼 인증' />
