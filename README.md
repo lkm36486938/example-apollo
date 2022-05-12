@@ -17,3 +17,5 @@
 ## 구현 (Side Quests)
 
 <a href="https://www.apollographql.com/tutorials/side-quest-auth/">SIDE QUEST 1 - Authentication & Authorization</a>
+
+- graphql 의 다른 Schema type - enum, input, interfacde 에 대한 설명
