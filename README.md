@@ -30,3 +30,5 @@
 - 백엔드에서 모듈화 된 그래프를 생성하기 위한 아키텍쳐를 뜻한다.
 
 <a href="https://www.apollographql.com/tutorials/voyage-part2/">FEDERTAION 2 - Federating the monolith</a>
+
+- 모놀리스 아키텍쳐로 전환

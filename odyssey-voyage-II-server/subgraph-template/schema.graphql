@@ -1,0 +1,43 @@
+extend schema
+  @link(url: "https://specs.apollo.dev/federation/v2.0",
+        import: ["@key"])
+        
+type Query {
+  example: String
+}
+
+"Represents an Airlock user's common properties"
+interface User {
+  id: ID!
+  "The user's first and last name"
+  name: String!
+  "The user's profile photo URL"
+  profilePicture: String!
+}
+
+"A host is a type of Airlock user. They own listings."
+type Host implements User @key(fields: "id") {
+  id: ID!
+  "The user's first and last name"
+  name: String!
+  "The user's profile photo URL"
+  profilePicture: String!
+  "The host's profile bio description, will be shown in the listing"
+  profileDescription: String!
+}
+
+"A guest is a type of Airlock user. They book places to stay."
+type Guest implements User @key(fields: "id") {
+  id: ID!
+  "The user's first and last name"
+  name: String!
+  "The user's profile photo URL"
+  profilePicture: String!
+}
+
+"A review consists of a numerical rating and written text. It can be written by a host or a guest"
+type Review {
+  # ... other fields
+  "User that wrote the review"
+  author: User!
+}
