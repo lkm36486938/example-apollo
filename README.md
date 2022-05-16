@@ -22,3 +22,11 @@
 - **resolverType, fragment (+ ... on), **typename
 
 <img src="./basic_tutorial_certification.png" alt='튜토리얼 인증' />
+
+## Federation
+
+<a herf="https://www.apollographql.com/tutorials/voyage-part1/">FEDERATION 1 - Basics</a>
+
+- 백엔드에서 모듈화 된 그래프를 생성하기 위한 아키텍쳐를 뜻한다.
+
+<a href="https://www.apollographql.com/tutorials/voyage-part2/">FEDERTAION 2 - Federating the monolith</a>
